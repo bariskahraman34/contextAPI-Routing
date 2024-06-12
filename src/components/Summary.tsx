@@ -6,7 +6,6 @@ import { Button,ListItem,ListItemAvatar,Avatar,ListItemText,Typography, Containe
 function Summary(){
     const { user } = useContext(UserContext);
     const navigate = useNavigate();
-
     const handleConfirm = () => {
         navigate('/users');
     };

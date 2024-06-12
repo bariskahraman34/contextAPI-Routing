@@ -1,0 +1,35 @@
+a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.color-b{
+  color: black;
+}
+
+/* Not Found Page */
+.not-found {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.not-found h1 {
+  font-size: 6rem;
+  color: #ff6347;
+}
+
+.not-found p {
+  font-size: 1.5rem;
+  margin: 20px 0;
+}
+
+.not-found a {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 1.2rem;
+}
+
+.not-found a:hover {
+  text-decoration: underline;
+}

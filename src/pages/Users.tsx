@@ -1,9 +1,8 @@
-import { useContext } from "react";
-import { UserContext } from "../UserProvider";
+import { useUserContext } from "../UserProvider";
 import { Container,ListItem,ListItemAvatar,Avatar,ListItemText,Typography } from "@mui/material";
 
 export default function Users() {
-  const {user} = useContext(UserContext);
+  const {user} = useUserContext();
   return (
     <Container maxWidth="sm">
       {user ?

@@ -1,10 +1,9 @@
-import { useContext } from 'react';
-import { UserContext } from '../UserProvider';
+import { useUserContext } from '../UserProvider';
 import { useNavigate } from 'react-router-dom';
 import { Button,ListItem,ListItemAvatar,Avatar,ListItemText,Typography, Container } from '@mui/material';
 
 function Summary(){
-    const { user } = useContext(UserContext);
+    const { user } = useUserContext();
     const navigate = useNavigate();
     const handleConfirm = () => {
         navigate('/users');

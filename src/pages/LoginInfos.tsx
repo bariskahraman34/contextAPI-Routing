@@ -1,5 +1,5 @@
-import { useState, useContext, useEffect } from 'react';
-import { UserContext } from '../UserProvider';
+import { useState, useEffect } from 'react';
+import { useUserContext } from '../UserProvider';
 import Summary from '../components/Summary';
 import { FormControl,TextField,Button,Stack } from '@mui/material';
 
@@ -11,7 +11,7 @@ export default function LoginInfos() {
     password: ''
   });
   const [isSubmitted, setIsSubmitted] = useState(false);
-  const { user, setUser } = useContext(UserContext);
+  const { user, setUser } = useUserContext();
 
   const handleChange = (e: { target: { name: string; value: string; }; }) => {
       const { name, value } = e.target;

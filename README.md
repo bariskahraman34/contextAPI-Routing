@@ -1,6 +1,6 @@
 # React TypeScript Context API & Routing
 
-To see this project up and running, check [this demo link](https://your-vercel-app.vercel.app).
+To see this project up and running, check [this demo link](https://your-vercel-app.vercel.app){:target="_blank"}.
 
 ## Table of Contents
 
@@ -67,7 +67,7 @@ The following scripts are available in the package.json:
 
 ## 🚀 Deployment
 
-Easily deploy your Next.js app with Vercel by clicking [DEPLOY](https://vercel.com/)
+Easily deploy your Next.js app with Vercel by clicking [DEPLOY](https://vercel.com/){:target="_blank"}
 
 
 # React + TypeScript + Vite
